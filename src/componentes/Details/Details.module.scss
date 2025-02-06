@@ -1,0 +1,120 @@
+.Details {
+  width: 80%;
+    margin-left:auto;
+    min-height: 100vh;
+//    padding-left: 30px;
+    
+   .flexitems{
+    display: flex;
+   row-gap: 4px;
+   flex-wrap: wrap;
+   }
+.sec1{
+    width: 30%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 100%;
+         border-radius: 30px;
+    }
+    button:nth-child(1){
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color:rgb(220 38 38) ;
+        cursor: pointer;
+        transition: border-color 0.25s;
+        margin: 6px;
+        color: white;
+      }
+    button:nth-child(2){
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: rgb(33 186 117);
+        cursor: pointer;
+        transition: border-color 0.25s;
+        color: white;
+        margin: 6px;
+      }
+      
+      
+      
+}
+p{
+    width: 30%;
+    margin-left: 15px;
+
+}
+.sec3{
+    width: 25%;
+    margin-left: 15px;
+    background-color: white;
+    // text-align: center;
+   border-radius: 30px;
+   overflow: hidden;
+ 
+}  
+h2{
+  margin: 20px;
+  
+
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+}
+h3{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    font-weight: 100;
+    font-size: medium;
+}
+.item3{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+   h1{
+    font-weight: 900;
+
+color: black;
+    font-size: 3rem;
+    line-height: 1;
+
+
+    margin-bottom: 1rem;
+
+    font-family: Pacifico, cursive;
+  
+
+}
+@media (max-width:1024px) {
+    .flexitems{
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .sec1{
+        width: 80%;
+        
+    }
+    .sec3{
+        width: 80%;
+
+    }
+    p{
+        width: 80%;
+    }
+}
+}

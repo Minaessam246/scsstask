@@ -1,0 +1,59 @@
+.Footer {
+
+
+   width: 90%;
+   margin-left: auto;
+    z-index: 10;
+    
+    background-color: white;
+  
+    .footitem1{
+        display: flex;
+        justify-content: space-between;
+padding: 32px;
+width: 80%;
+margin: auto;
+    }
+    hr {
+        width: 80%;
+        margin: auto;
+border: none;
+height: 1px;
+background-color: rgb(226, 232, 244);
+     
+    }
+    span:nth-child(1){
+        font-weight: 700;
+color: black;
+
+
+    font-size: 1.5rem;
+    line-height: 2rem;}
+    span:nth-child(2){
+        font-weight: 700;
+color: blue;
+
+
+    font-size: 1.5rem;
+    line-height: 2rem;}
+    .footitem2{
+        color: rgb(107 114 128 );
+    
+    
+    
+        font-size: .875rem;
+        line-height: 1.25rem;
+        text-align: center;
+        padding: 32px;
+    }
+    
+    @media (max-width:1300px) {
+        margin-left: auto;
+        width: 80%;
+    }
+    @media (max-width:789px) {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+}
