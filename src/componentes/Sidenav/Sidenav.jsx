@@ -11,10 +11,10 @@ export default function Sidenav() {
   return (
     <>
 
-   
+    
 
-    <div onClick={toggle} className={styles.sidenav}>
-       <div className={styles.togbtn}><i class="fa-solid fa-bars"></i></div> 
+    <div  className={styles.sidenav}>
+       <div onClick={toggle} className={styles.togbtn}><i class="fa-solid fa-bars"></i></div> 
   <nav className={tog?styles.hidden:styles.block}>
         
 
@@ -23,8 +23,8 @@ export default function Sidenav() {
     <Link to="/">Ingredients</Link>
     <Link to="/">Area</Link>
   </nav>
-    </div>
-  
+    
+ </div>
     </>
   )
 }

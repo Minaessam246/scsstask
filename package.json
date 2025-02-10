@@ -2,7 +2,7 @@
   "name": "scss",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Minaessam246.github.io/sassTask",
+  "homepage": "https://Minaessam246.github.io/sass_task",
   "type": "module",
   "scripts": {
     "dev": "vite",
